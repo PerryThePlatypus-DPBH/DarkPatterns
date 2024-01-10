@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['BackgroundImage', 'Drawer', 'EditText', 'Icon', 'Image', 'Modal', 'Text', 'TextButton']
+
+roboflow:
+  workspace: samsung-prism-pqjc2
+  project: prism-final-2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/samsung-prism-pqjc2/prism-final-2/dataset/2
