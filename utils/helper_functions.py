@@ -7,7 +7,7 @@ def get_pred_img(model: YOLO, img_path, save_dir):
     for result in results:
         im_array = result.plot()
         im = Image.fromarray(im_array[..., ::-1])
-        im.show()
+        # im.show()
         im.save(f'{save_dir}/results.jpg')
 
 
